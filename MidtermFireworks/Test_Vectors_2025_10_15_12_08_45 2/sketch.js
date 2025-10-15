@@ -18,7 +18,7 @@ function windowResized(){
 
 
 function draw() {
-  background(255, 40);
+  background(0, 0, 50, 40);
   //   myDot.update();
   //   myDot.drawDot();
 
@@ -44,9 +44,9 @@ class Flare {
     this.gravity = random(0.01, 0.1);
     this.acc = createVector(0, this.gravity);
     this.speed = createVector(0, -1);
-    this.size = random(4, 20);
+    this.size = random(4, 30);
     this.lerpAmt = this.speed;
-    this.lerpFrames = 60; // duration in frames
+    this.lerpFrames = 40; // duration in frames
     this.lerpProgress = 0;
     this.ignited = false;
     this.alive = true;
