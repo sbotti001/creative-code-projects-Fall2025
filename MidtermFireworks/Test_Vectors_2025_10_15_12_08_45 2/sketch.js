@@ -18,7 +18,7 @@ function windowResized(){
 
 
 function draw() {
-  background(0, 0, 50, 40);
+  background(0, 0, 49, 40);
   //   myDot.update();
   //   myDot.drawDot();
 
