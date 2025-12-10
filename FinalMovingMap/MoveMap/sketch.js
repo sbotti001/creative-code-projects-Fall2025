@@ -31,7 +31,7 @@ function geoSuccess(position) {
 
 function setup() {
   // createCanvas(windowWidth, windowHeight);
-  createCanvas(640, 480);
+  createCanvas(600, 450);
   background(220);
   //noLoop();
   
