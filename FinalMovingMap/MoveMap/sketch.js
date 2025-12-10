@@ -1,4 +1,4 @@
-let zoomFactor = 65;
+let zoomFactor = 85;
 let terrainColor;
 let isInside = false;
 let fence;
