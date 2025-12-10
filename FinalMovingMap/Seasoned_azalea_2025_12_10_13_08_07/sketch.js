@@ -1,4 +1,4 @@
-let zoomFactor = 100;
+let zoomFactor = 65;
 let terrainColor;
 let isInside = false;
 let fence;
@@ -30,7 +30,8 @@ function geoSuccess(position) {
 }
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  // createCanvas(windowWidth, windowHeight);
+  createCanvas(640, 480);
   background(220);
   //noLoop();
   
@@ -38,9 +39,9 @@ function setup() {
   
 }
 
-function windowResized() {
-  resizeCanvas(windowWidth, windowHeight)
-}
+// function windowResized() {
+//   resizeCanvas(windowWidth, windowHeight)
+// }
 
 function draw() {
   

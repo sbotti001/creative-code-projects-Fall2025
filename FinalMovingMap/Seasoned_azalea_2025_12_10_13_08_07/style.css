@@ -4,4 +4,9 @@ html, body {
 }
 canvas {
   display: block;
+  position: fixed;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover;
+  /* object-fit: contain; */
 }
